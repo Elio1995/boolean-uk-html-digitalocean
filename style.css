@@ -681,7 +681,7 @@ footer .list-5 li:hover{
     }
 }
 
-@media screen and (max-width:900px)
+/* @media screen and (max-width:900px)
     {
     .title{
        display: none;
@@ -695,13 +695,23 @@ footer .list-5 li:hover{
        display: none;
    }
 
-}
+} */
 
-@media screen and (max-width:500px)
+ @media screen and (max-width:500px)
     {
-  .logo{
-      display: none;
-  }
+
+        .title{
+            display: none;
+        }
+        
+        .list-grid .list3{
+            display: none;
+        }
+     
+        .section-4{
+            display: none;
+        }
+
    
   .section-7{
       display: none;
@@ -721,10 +731,10 @@ footer{
     display: none;
 }
 
-    }
+    } 
 
 
-    @media screen and (max-width:250px)
+    /* @media screen and (max-width:250px)
     {
 
 header{
@@ -743,7 +753,4 @@ header{
     display: none;
 }
 
-
-
-
-    }
+} */
